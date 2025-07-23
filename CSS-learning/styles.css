@@ -1,3 +1,10 @@
 h1{
     color: blueviolet;
+    font-size: 32px;
+    font-family: Verdana;
+}
+p{
+    color: grey;
+    font-size: 18px;
+    line-height: 1.6;
 }

@@ -1,0 +1,22 @@
+h1{
+    color: mediumvioletred;
+    font-size: 40px;
+    font-family: georgia;
+    text-align: center;
+}
+h2{
+    color: darkcyan;
+    font-size: 28xp;
+    text-align: center;
+}
+p{
+    color: gray;
+    font-style: italic;
+    line-height: 1.5;
+    width: 80;
+    text-align: center;
+    margin: auto;
+}
+body{
+    background-color: beige;
+}
