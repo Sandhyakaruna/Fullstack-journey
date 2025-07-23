@@ -1,0 +1,38 @@
+:root
+{
+    --bg-colour: #8dccaa;
+    --bg--head:#608772;
+    --bg--card:#059245;
+    --heading-font: "Trebuchet MS", sans-serif;
+    --para-font: "Georgia", serif;
+    --heading-size: 38px;
+    --para-size: 18px;
+
+}
+body{
+    background-color: #8dccaa;
+    color: var(--text-color);
+    font-family: var(--para-font);
+    text-align: center;
+    padding: 40px;
+}
+.root-head{
+    background-color: var(--bg-colour);
+    font-family: var(--heading-font);
+    font-size: var(--heading-size);
+
+}
+.card{
+    background-color:var(--bg--card) ;
+    padding: 20px;
+    margin: 20px auto;
+    width: 40%;
+    border-radius: 9px;
+    box-shadow: 0 0 5px rgba(5, 4, 4, 0.2);
+
+}
+footer{
+    margin-top: 50px;
+    font-size: 14px;
+    color: var(--primary-color);
+}
