@@ -1,0 +1,15 @@
+.example-font{
+    font-family: "Georgia", "Times New Roman", serif;
+  font-size: 30px;
+  color: #333;
+  letter-spacing: 1px;
+}
+.arial {
+  font-family: Arial, sans-serif;
+}
+.verdana {
+  font-family: Verdana, sans-serif;
+}
+.courier {
+  font-family: "Courier New", monospace;
+}
