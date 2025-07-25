@@ -1,0 +1,32 @@
+html{
+    font-size: 16xp;
+}
+body{
+    margin: 0;
+    height: 100vh;
+    background-color:#e0f7fa ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+.card
+{
+    background-color: #ffffff;
+    width: 60vw;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1) ;
+
+
+}
+.card h1 {
+    font-size: 2rem;
+    color: #00796b;
+    margin-bottom: #00796b;
+}
+.card p {
+    font-size: 1.2rem;
+    color: #333;
+}
