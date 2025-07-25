@@ -1,0 +1,25 @@
+body{
+     font-family: sans-serif;
+     margin: 20xp;
+     
+}
+.box {
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: #cce5ff;
+  border: 1px solid #3399ff;
+}
+.px {
+  width: 200px;
+}
+.percent {
+  width: 50%;
+}
+
+.rem {
+  padding: 2rem;
+}
+
+.vw {
+  width: 30vw;
+}
