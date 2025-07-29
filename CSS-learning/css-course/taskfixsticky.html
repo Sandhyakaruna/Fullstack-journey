@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .fixed-navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: navy;
+      color: white;
+      padding: 10px;
+      z-index: 1000;
+    }
+
+    .content {
+      margin-top: 60px;
+      padding: 20px;
+      height: 1500px;
+      background: #f2f2f2;
+    }
+
+    .sticky-heading {
+      position: sticky;
+      top: 0;
+      background-color: coral;
+      padding: 10px;
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="fixed-navbar">🔒 Fixed Navbar (Always Visible)</div>
+
+  <div class="content">
+    <div class="sticky-heading">📌 Sticky Heading (Sticks on Scroll)</div>
+    <p>Scroll down to test both features...</p>
+    <p style="margin-top: 1200px;">Reached bottom!</p>
+  </div>
+
+</body>
+</html>
