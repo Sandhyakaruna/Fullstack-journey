@@ -1,0 +1,20 @@
+.container {
+      display: flex;
+      flex-direction: row; /* Try column, row-reverse, column-reverse */
+      justify-content: space-around; /* Try: flex-start, center, space-between, space-evenly */
+      align-items: center; /* Try: flex-start, flex-end, stretch */
+      height: 200px;
+      background-color: #f1f1f1;
+      gap: 20px;
+      border: 2px solid #444;
+    }
+
+    .box {
+      width: 80px;
+      height: 80px;
+      background-color: #4CAF50;
+      color: white;
+      text-align: center;
+      line-height: 80px;
+      font-weight: bold;
+    }
